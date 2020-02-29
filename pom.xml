@@ -28,38 +28,6 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.0.0-M3</version>
       </plugin>
-
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-pmd-plugin</artifactId>
-        <version>3.7</version>
-        <configuration>
-          <printFailingErrors>true</printFailingErrors>
-          <linkXRef>false</linkXRef>
-          <typeResolution>true</typeResolution>
-          <targetJdk>${maven.compiler.target}</targetJdk>
-          <sourceEncoding>${encoding}</sourceEncoding>
-          <includeTests>true</includeTests>
-          <rulesets>
-            <ruleset>/rulesets/java/object-calisthenics.xml</ruleset>
-          </rulesets>
-        </configuration>
-        <executions>
-          <execution>
-            <phase>test</phase>
-            <goals>
-              <goal>check</goal>
-            </goals>
-          </execution>
-        </executions>
-        <dependencies>
-          <dependency>
-            <groupId>org.codecop</groupId>
-            <artifactId>pmd-rules</artifactId>
-            <version>1.2.3</version>
-          </dependency>
-        </dependencies>
-      </plugin>
     </plugins>
   </build>
 
@@ -79,18 +47,4 @@
     </dependency>
   </dependencies>
 
-  <pluginRepositories>
-    <pluginRepository>
-      <id>plugin-releases</id>
-      <name>Code Cop Plugin Releases</name>
-      <url>http://www.code-cop.org/mvn2repo/releases</url>
-      <releases>
-        <enabled>true</enabled>
-        <updatePolicy>never</updatePolicy>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </pluginRepository>
-  </pluginRepositories>
 </project>

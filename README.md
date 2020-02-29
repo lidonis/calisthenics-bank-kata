@@ -28,5 +28,3 @@ The Rules
 Credits
 ---------
 [Idea from Sandro Mancuso](https://github.com/sandromancuso/Bank-kata)
-
-[PMD rules from Peter Kofler](http://blog.code-cop.org/2018/01/compliance-with-object-calisthenics.html)
