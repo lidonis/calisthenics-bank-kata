@@ -12,6 +12,8 @@ Account statement (date, amount, balance)
 Statement printing  
 Statement filters (just deposits, withdrawal, date)
 
+![alt text](https://upload.wikimedia.org/wikipedia/commons/c/cb/BankStatementChequing.png)
+
 The Rules
 ---------
 
