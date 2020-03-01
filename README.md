@@ -25,6 +25,8 @@ The Rules
 8. No classes with more than two instance variables
 9. No getters/setters/properties
 
+[Slides by William Durand](https://slides.williamdurand.fr/object-calisthenics/#/)
+
 Credits
 ---------
 [Idea from Sandro Mancuso](https://github.com/sandromancuso/Bank-kata)
