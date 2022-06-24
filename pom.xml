@@ -10,7 +10,7 @@
     <encoding>UTF-8</encoding>
     <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
     <project.reporting.outputEncoding>${encoding}</project.reporting.outputEncoding>
-    <cucumber.version>7.3.4</cucumber.version>
+    <cucumber.version>7.4.1</cucumber.version>
   </properties>
 
   <build>
